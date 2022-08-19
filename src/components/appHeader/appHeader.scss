@@ -1,0 +1,150 @@
+.appHeader {
+    min-width: 100vw; 
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+    background-color: #1f1f1f;
+
+    position: fixed;
+    z-index: 2;
+}
+
+.wrapper {
+    background-color: #f4f4f4;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    & .linkKino {
+        padding-right: 40px;
+    }
+}
+
+.headerMenuLink {
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 0.3;
+    font-size: 15px;
+    & > i {
+        transition: color 0.3;
+        &.icons {
+            color: rgba(255, 255, 255, 0.6);
+            padding-right: 10px;
+        }
+    }
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+
+        & > i {
+            color: #fff;
+        }
+    }
+}
+
+
+
+.input {
+ 
+    // width: 350px;
+    // height: 35px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    display: flex;
+    background-color: rgba(242, 242, 242, 0.15);
+    transition: color 0.3;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+
+    & .inputCinema {
+        outline: none;
+        padding-left: 13px;
+        border-color: transparent;
+        background-color: transparent;
+
+        border-radius: 5px 0px 0px 5px;
+
+        width: 300px;
+        height: 35px;
+        }
+
+    & .buttonSearch {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        transition: color 0.3;
+        height: 35px;
+        width: 50px;
+        border-radius: 0px 5px 5px 0px;
+        border-color: transparent;
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.6);
+        border: 0px;
+        & :hover {
+            color: #fff;
+        }
+    }
+    & :focus {
+            background-color: #fff;
+        }
+        
+}
+
+
+
+
+
+
+.tryPluse {
+    background: radial-gradient(
+        96.72% 187.09% at 0 100.29%,
+        #ff5c00 5.21%,
+        #ea507c 25.52%,
+        #b941ef 48.44%,
+        #5b61ff 70.83%,
+        #21bee7 93.75%
+    );
+
+    width: 100px;
+    height:  40px;
+    border-radius: 5px;
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 50px;
+    &:hover {
+        transform: scale(1.06);
+        transition: 0.3;
+    }
+
+}
+
+.tryPluse .pluse {
+    text-decoration: none;
+
+    font-size: 12px;
+    color: #fff;
+    line-height: 14px;
+    text-align:  center;
+}
+
+.enter {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    border: transparent;
+    font-size: 15px;
+}
+
+.ent :hover {
+    color: #fff;
+}
+
+
+
