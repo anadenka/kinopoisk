@@ -5,7 +5,7 @@ function Media() {
   return (
     <div className='d-flex flex-column'>
       this is Media
-      <Link to="/mainPage">Return to main page</Link>
+      <Link to="/">Return to main page</Link>
     </div>
   )
 }

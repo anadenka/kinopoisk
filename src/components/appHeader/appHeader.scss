@@ -1,14 +1,17 @@
 .appHeader {
-    min-width: 100vw; 
-
+    min-width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 72px;
-    background-color: #1f1f1f;
-
-    position: fixed;
-    z-index: 2;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://avatars.mds.yandex.net/get-bunker/49769/1ff764ed2c2f92ae8ba60a56ef5e571e8b7d82ef/orig');
+    overflow: hidden;
+    position: sticky;
+    top: -79px;
+    z-index: 5;
+    
 }
 
 .wrapper {
@@ -21,7 +24,11 @@
     align-items: center;
     & .linkKino {
         padding-right: 40px;
-    }
+    & > img {
+        width: 163px;
+        height: 100%;
+        }
+    }   
 }
 
 .headerMenuLink {
@@ -38,9 +45,15 @@
     &:hover {
         color: #fff;
         text-decoration: none;
-
         & > i {
-            color: #fff;
+            color: rgb(255, 255, 255);
+        }
+    }
+    &:focus {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.6);
+        & > i {
+            color: rgba(255, 255, 255, 0.6);;
         }
     }
 }

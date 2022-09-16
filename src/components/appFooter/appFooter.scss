@@ -1,0 +1,134 @@
+.wrapFooter {
+    padding-top: 50px;
+    background-color: #0c0c0c;
+}
+
+.innerFooter {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.socialNetworks {
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 35%;
+    padding: 25px;
+}
+
+.iconMasks {
+    & > img {
+        opacity: 0.3;
+    } & :hover {
+        opacity: 0.6;
+    }
+}
+
+.footerContentLinks {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0;
+    margin: auto;
+
+    text-align: center;
+    & .footerItemList {
+        padding-right: 27px;
+    }
+    & :hover {
+        text-decoration: none;
+        color: rgb(201, 201, 201);
+        transition: color 0.3s;
+    }
+}
+.footerContentItem {
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(112 112 112);
+}
+
+.downloadApp {
+    padding: 50px 0 64px;
+    .opacityLink {
+        opacity: 0.4;
+        padding-right: 15px;
+    }
+    & :hover {
+        opacity: 0.8;
+    }
+}
+
+.footerBottom {
+    padding: 29px;
+    border-top: 1px solid #191919;
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    & > p {
+        font-size: 14px;
+        color: #444444;
+        font-weight: lighter;
+        display: flex;
+        align-items: center;
+        & > span {
+            font-size: 11px;
+            margin-top: 2px;
+        }
+    }
+    & .linkKinop {
+        padding: 0 20px 0 5px;
+        color: #ffffff;
+        & > p {
+            margin: 0;
+            opacity: 0.2;
+        }
+        & :hover {
+            transition: opacity 0.3s;
+            opacity: 0.6;
+        }
+    }
+}
+
+.linksBottom {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+
+    padding-right: 85px;
+    & .linkBott {
+        & > p {
+            color: #fff;
+            opacity: 0.2;
+            font-weight: lighter;
+            padding-right: 10px;
+        }
+        & :hover {
+            transition: opacity 0.3s;
+            opacity: 0.6;
+        }
+    }
+}
+
+.linkYand {
+    padding-left: 4px;
+    & > span {
+        color: #fff;
+        opacity: 0.3;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    & :hover {
+        transition: 0.2s;
+        opacity: 0.6;
+
+    }
+}
+

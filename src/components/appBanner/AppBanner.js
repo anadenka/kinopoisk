@@ -5,7 +5,7 @@ import './AppBanner.scss'
 function AppBanner() {
   return (
     <div className='banner'>
-      <img alt='tele2' src={imgBanner}></img>
+      <img className='img' alt='banner' src={imgBanner}/>
     </div>
   )
 }
