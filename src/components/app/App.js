@@ -3,6 +3,8 @@ import MainPage from "../pages/mainPage/MainPage";
 import AppHeader from '../appHeader/AppHeader';
 import "./App.scss"
 import AppBanner from "../appBanner/AppBanner";
+import SideBar from "../sideBar/SideBar";
+import AppFooter from "../appFooter/AppFooter";
 
 
 function App() {
@@ -11,10 +13,12 @@ function App() {
       <div className="wrapper">
         <AppHeader />
         <div className="container">
+          <AppBanner />
           <div className="mainContainer">
-            <AppBanner />
+            <SideBar />
             <MainPage />
           </div>
+            <AppFooter/>
         </div>
       </div>
 
