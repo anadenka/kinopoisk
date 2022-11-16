@@ -1,8 +1,10 @@
 import React from 'react'
+import '../../pages/pages.scss'
+
 
 function MovieTickets() {
   return (
-    <div>MovieTickets</div>
+    <div className='pagesTitle'>MovieTickets</div>
   )
 }
 

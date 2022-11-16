@@ -6,7 +6,7 @@ import "./SideBar.scss";
 function SideBar() {
   return (
     <div className='wrapLink'>
-      <Link className='sideLink activeLink' to="/main">
+      <Link className='sideLink activeLink' to="/">
         <div className='wrapIcons'>
           <i className="fa-solid fa-house sideIcons activeIcon"></i>
         </div>
@@ -24,7 +24,7 @@ function SideBar() {
         </div>
         Фильмы
       </Link>
-      <Link className='sideLink' to="/cinema">
+      <Link className='sideLink' to="/serials">
         <div className='wrapIcons'>
           <i className="fa-solid fa-clone sideIcons"></i>
         </div>

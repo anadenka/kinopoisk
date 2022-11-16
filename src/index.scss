@@ -1,17 +1,21 @@
-// body {
-//   background-color: #fff;
-//   margin: 0;
-//   font-family: 'Roboto', 'Oxygen',
-//     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-//     sans-serif;
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-// }
+.wrapper {
+    margin: 0;
+    padding: 0;
+  
+    background-color: #f4f4f4;
+  }
+  
+  .wrapper .container {
+    width: 1300px;
+  
+    background-color: #fff;
+    padding: 0px;
+  
+    min-width: 1030px;
+  
+  }
 
-// code {
-//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-//     monospace;
-// } 
-// @import './style/style.scss'
-
-
+  .mainContainer {
+    display: flex;
+    align-items: flex-start;
+  }
