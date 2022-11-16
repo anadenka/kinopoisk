@@ -1,8 +1,10 @@
 import React from 'react'
+import '../../pages/pages.scss'
+
 
 function SetToTV() {
   return (
-    <div>SetToTV</div>
+    <div className='pagesTitle'>SetToTV</div>
   )
 }
 

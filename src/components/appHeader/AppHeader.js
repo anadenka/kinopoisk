@@ -14,7 +14,7 @@ const linkItems = [
     id: 2,
     text: "Установить на ТВ",
     icon: "fa-solid fa-display",
-    href: "/TV",
+    href: "/setToTV",
   },
 ];
 

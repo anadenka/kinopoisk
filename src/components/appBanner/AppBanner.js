@@ -1,6 +1,6 @@
 import React from 'react'
 import imgBanner from './img/imgBanner.png'
-import './AppBanner.scss'
+import './appBanner.scss'
 
 function AppBanner() {
   return (

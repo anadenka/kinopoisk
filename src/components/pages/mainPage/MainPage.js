@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import poster from "./img/poster.jpeg";
 
-import "./MainPage.scss";
+import "./mainPage.scss";
 import { getFilteredFilms } from "../../../utils/request";
 import Cards from "../../cards/Cards";
+// import OnlineCinema from "../onlineCinema/OnlineCinema";
 
 
 function MainPage() {
@@ -31,6 +32,9 @@ function MainPage() {
               <Cards movies={movies}/>
             </div>
           </div>
+          
+
+          {/* <OnlineCinema /> */}
         </div>
       </div>
     </div>

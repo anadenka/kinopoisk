@@ -1,8 +1,10 @@
 import React from 'react'
+import '../../pages/pages.scss'
+
 
 function Serials() {
   return (
-    <div>Serials</div>
+    <div className='pagesTitle'>Serials</div>
   )
 }
 
