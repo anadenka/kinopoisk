@@ -1,7 +1,7 @@
 import React from "react";
 import MainPage from "../pages/mainPage/MainPage";
-import "./app.scss"
-
+import "./App.scss"
+ 
 function App() {
   return (
     <React.StrictMode>

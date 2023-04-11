@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import poster from "./img/poster.jpeg";
 
-import "./mainPage.scss";
+import "./MainPage.scss";
 import { getFilteredFilms } from "../../../utils/request";
 import Cards from "../../cards/Cards";
 // import OnlineCinema from "../onlineCinema/OnlineCinema";
